@@ -12,15 +12,15 @@ However to his dismay, after failing to read the product description on chefBay;
 
 Don't worry about creating and deleting items, for the **MVP** we only need to show him some hard-coded menu items. 
 
-1. Go ahead and create a new react project with `create-react-app` like we did in class.  
+- Go ahead and create a new react project with `create-react-app` like we did in class.  
 
-2. And of course attach it to a git repository now, just to be safe! 
+-  And of course attach it to a git repository now, just to be safe! 
 
-3. Now create two files `Header.jsx` and `Menu.jsx`. Make sure to link them to `App.jsx` too. 
+-  Now create two files `Header.jsx` and `Menu.jsx`. Make sure to link them to `App.jsx` too. 
 
-4. Now `Header.jsx` is pretty simple. All it should do is return a jsx element with the name of Jordan's restaurant, in a H1 tag. (You get to name it too, be creative!) But the trick is; the **name has to be passed in to Header from the state in `App.jsx`.**
+- Now `Header.jsx` is pretty simple. All it should do is return a jsx element with the name of Jordan's restaurant, in a H1 tag. (You get to name it too, be creative!) But the trick is; the **name has to be passed in to Header from the state in `App.jsx`.**
 
-5. `Menu.jsx` is going to need a bit more elbow grease to get it working. You need to pass the following array as a **prop** of Menu from `App.jsx`. 
+- `Menu.jsx` is going to need a bit more elbow grease to get it working. You need to pass the following array as a **prop** of Menu from `App.jsx`. 
 
 ```javascript
 [
@@ -32,11 +32,11 @@ Don't worry about creating and deleting items, for the **MVP** we only need to s
 ```
 *Add a few more very Italian items to the menu too!*
 
-6. Now in `Menu.jsx` take your time to display each item and their price in an unordered list. You don't need to use .map(), you can just access by the array index.
+-  Now in `Menu.jsx` take your time to display each item and their price in an unordered list. You don't need to use .map(), you can just access by the array index.
 
 ###Bonus!
 
-7. Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code for dynamic data. 
+-  Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code for dynamic data. 
 
 
 

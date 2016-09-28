@@ -1,10 +1,10 @@
 # Intro
 
-Jordan Sassy is a well known television chef. Off air he runs his own Italian Restaurant. He recently invested in smart, internet connected, menu boards because he **LOVES** being the most tech savvy chef in town. 
+Jordan Sassy is a well known television chef. Off air he runs his own Italian Restaurant. He recently invested in smart, internet connected, menu boards. Because he **LOVES** being the most tech savvy chef in town. 
 
 ![](https://67.media.tumblr.com/9824deb84f897ca7e52c13e66f0adba5/tumblr_ne9jfcyNho1qhub34o1_500.gif)
 
-However to his dismay, after failing to read the product description on chefBay; he discovered he had no way, app nor web interface, to tell the boards what to display! He then hired you to design a React dashboard for them, and needs the MVP from you ASAP. (We wouldn't want him to look bad right?!)
+However to his dismay, after failing to read the product description on chefBay; he discovered he had no way to tell the boards what to display! He then hired you to design a React dashboard for them, and needs the MVP from you ASAP. (We wouldn't want him to look bad right?!)
 
 ------
 
@@ -36,7 +36,7 @@ Don't worry about creating and deleting items, for the **MVP** we only need to s
 
 ###Bonus!
 
-7. Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code. 
+7. Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code for dynamic data. 
 
 
 

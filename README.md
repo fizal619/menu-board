@@ -14,13 +14,11 @@ Don't worry about creating and deleting items, for the **MVP** we only need to s
 
 - Go ahead and create a new react project with `create-react-app` like we did in class.  
 
--  And of course attach it to a git repository now, just to be safe! 
+- And of course attach it to a git repository now, just to be safe! 
 
--  Now create two files `Header.jsx` and `Menu.jsx`. Make sure to link them to `App.jsx` too. 
+-  Now outline what react components you need to make in order to display a menu of various entrees with prices. You can put that in your Readme, or in a comment on `App.jsx`. 
 
-- Now `Header.jsx` is pretty simple. All it should do is return a jsx element with the name of Jordan's restaurant, in a H1 tag. (You get to name it too, be creative!) But the trick is; the **name has to be passed in to Header from the state in `App.jsx`.**
-
-- `Menu.jsx` is going to need a bit more elbow grease to get it working. You need to pass the following array as a **prop** of Menu from `App.jsx`. 
+-  Your menu is going to need a bit of elbow grease to get it working. You need to pass the following array as a **prop** of Menu from the state in `App.jsx`. 
 
 ```javascript
 [
@@ -32,11 +30,12 @@ Don't worry about creating and deleting items, for the **MVP** we only need to s
 ```
 *Add a few more very Italian items to the menu too!*
 
--  Now in `Menu.jsx` take your time to display each item and their price in an unordered list. You don't need to use .map(), you can just access by the array index.
+-  Now in your menu component take your time to display each item and their price in an unordered list. You don't need to use .map(), you can just access by the array index.  each menu item should be encaspulated in a react component, like `<Item name="Pasta Surprise!" price={35} />`.
+
+-  Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code for dynamic data.
 
 ###Bonus!
 
--  Rework your code in `Menu.jsx` to utilize the .map() function. This is probably the best thing to learn when it comes to dealing with arrays of objects in your code for dynamic data. 
+- Jordan wants a section of the app to show the kitchen what to make as orders come in. Think about what you just made and how that code can be adapted to the new requirement. 
 
-
-
+- You'll need to have some way to pass whatever item is clicked to the new Orders list. You wouldn't need to modify the original list. And orders are allowed to have multiples of each item in there. (App is the **brains** of the operation!)

@@ -16,7 +16,7 @@ Don't worry about creating and deleting items, for the **MVP** we only need to s
 
 - And of course attach it to a git repository now, just to be safe! 
 
--  Now outline what react components you need to make in order to display a menu of various entrees with prices. You can put that in your Readme, or in a comment on `App.jsx`. 
+-  Now outline what react components you need to make in order to display a menu of various entrees with prices. So it’d be like, the App > MessageList > Messages exercise, but App > Menu > Item instead. You can put that in your Readme, or in a comment on `App.jsx`. 
 
 -  Your menu is going to need a bit of elbow grease to get it working. You need to pass the following array as a **prop** of Menu from the state in `App.jsx`. 
 
